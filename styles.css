@@ -1,0 +1,173 @@
+header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #003366;
+  color: white;
+  position: fixed;
+  width: 100%;
+}
+
+header h1 {
+  font-size: 45px;
+  font-family: georgia;
+  margin: 25px;
+}
+
+#header-img {
+  width: 100px;
+  padding: 5px;
+}
+
+body {
+  background-color: #C2E1ED;
+  color: #0459A3;
+  font-family: monospace;
+  margin: 0;
+}
+
+#nav-bar ul {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 15px;
+}
+
+
+#nav-bar li {
+  display: inline;
+  padding: 10px;
+}
+
+#nav-bar li a {
+  color: white;
+  font-size: 130%;
+  text-decoration: none;
+}
+
+main {
+  padding-top: 110px;
+}
+
+#home {
+  width: 100%;
+}
+
+h2 {
+  background-color: #084C61;
+  padding: 10px;
+  color: white;
+}
+
+.text-box {
+  padding: 25px;
+}
+
+#faq.text-box p {
+  column-count: 2;
+}
+
+#products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#products h2 {
+  width: 100%;
+}
+
+#products figcaption {
+  font-size: 25px;
+  padding: 15px;
+}
+
+#products img {
+  width: 100%;
+  border-radius: 10%;
+  border: 2px solid navy;
+  
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 25px;
+}
+
+#video {
+  width: 50%;
+}
+
+#contact {
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+#form {
+  background-color: white;
+  padding: 15px 25px;
+  margin: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 100%;
+  border: solid;
+}
+
+label {
+  display: flex;
+  justify-content: left;
+  padding-top: 15px;
+  font-size: 20px
+}
+
+#submit {
+  background-color: ;
+  font-family: verdana;
+  font-weight: bold;
+  box-shadow: 3px 3px #888888;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+input {
+  padding: 8px;
+}
+
+textarea {
+  padding-top:  5px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+#about {
+  font-size: 15px;
+}
+
+@media (max-width: 754px) {
+  header {
+    justify-content: center;
+  }
+  #nav-bar {
+    width: 100%;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+ /*
+  textarea {
+    cols: 10;
+  } 
+ */
+
+ figcaption {
+  font-size: 150%;
+  color: black;
+}
+
+main {
+  padding-top: 165px;
+}
+}
